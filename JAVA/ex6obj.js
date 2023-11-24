@@ -29,11 +29,11 @@ function getTotalKgWithObjectValues(shop) {
 
 
 let frutas1 = {
-  "manzanas golden": 25,
-  "manzanas fuji": 20,
-  "pera conferencia": 17,
-  "pera ercolina": 12,
+  "manzanas golden1": 25,
+  "manzanas fuji1": 20,
+  "pera conferencia1": 17,
+  "pera ercolina1": 12,
 };
 
-console.log(getTotalKgWithForOf(frutas));
+console.log(getTotalKgWithForOf(frutas1));
 */
