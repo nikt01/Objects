@@ -1,7 +1,7 @@
 let calculator = {
     read: function() {
-      this.a = parseFloat(prompt('Enter the first value:', 0));
-      this.b = parseFloat(prompt('Enter the second value:', 0));
+      this.a = parseFloat(prompt('Enter the a:', 0));
+      this.b = parseFloat(prompt('Enter the b:', 0));
     },
   
     sum: function() {
