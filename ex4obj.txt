@@ -1,0 +1,1 @@
+The result of accessing user.ref.name will likely be undefined, and it might even result in an error. The reason is that the value of this inside the makeUser function, when it's used to define the ref property, will be the global object ( window in a browser environment). The global object usually does not have a name property by default.
