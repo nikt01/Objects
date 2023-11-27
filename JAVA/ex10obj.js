@@ -20,6 +20,5 @@ let carParts = {
   
   console.log("Before adding: ", carParts);
   
-  addQuantityToParts(1); 
-  console.log("After adding: ", carParts);
+
   
