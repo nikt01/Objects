@@ -13,7 +13,7 @@ let number = {
       return this;
     }
   };
-  number.add().add().subtract().add().subtract().showNumber();
+  number.subtract().add().add().subtract().showNumber();
 
   //i think thats it?
   
