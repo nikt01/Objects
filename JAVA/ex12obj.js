@@ -17,19 +17,19 @@ function createUser(name, address, bodyDimensions) {
     return user;
   }
   
-  let usuario1 = createUser("Nicolas Tesla", "123 Main St", { height: 180, weight: 75 });
+  let usuario1i = createUser("Nicolas Tesla", "123 Main St", { height: 180, weight: 75 });
   
-  let usuario2 = { ...usuario1 };
+  let usuario2i = { ...usuario1i };
   
   usuario2.name = "Albert Einstein";
   usuario2.address = "456 Oak St";
   usuario2.bodyDimensions.height = 170;
   
-  console.log("Usuario1 Information:", usuario1.getInformation());
-  console.log("Usuario1 Friends:", usuario1.getFriends());
-  console.log("Usuario1 Mate:", usuario1.getMate()); 
+  console.log("Usuario1 Information:", usuario1i.getInformation());
+  console.log("Usuario1 Friends:", usuario1i.getFriends());
+  console.log("Usuario1 Mate:", usuario1i.getMate()); 
   
-  console.log("Usuario2 Information:", usuario2.getInformation());
-  console.log("Usuario2 Friends:", usuario2.getFriends());
-  console.log("Usuario2 Mate:", usuario2.getMate());
+  console.log("Usuario2 Information:", usuario2i.getInformation());
+  console.log("Usuario2 Friends:", usuario2i.getFriends());
+  console.log("Usuario2 Mate:", usuario2i.getMate());
   
