@@ -7,7 +7,7 @@ function createUser(name, address, bodyDimensions) {
         return `Name: ${this.name}, Address: ${this.address}, Body Dimensions: ${JSON.stringify(this.bodyDimensions)}`;
       },
       getFriends: function () {
-        return this.friends || [Adam]; 
+        return this.friends || []; 
       },
       getMate: function () {
         return this.mate; 
